@@ -1,0 +1,119 @@
+@media screen and (max-width: 374px){
+    .header{
+        padding: 10px;
+        /* justify-content: center; */
+    }
+    .header img{
+        width: 100%;
+    }
+    .section{
+        padding: 10px;
+    }
+    .section .content h1{
+        padding: 10px 0;
+    }
+    .social-icon-bex{
+        margin: 10px 0;
+    }
+}
+
+/* Medium screen */
+@media screen and (min-width: 475px){
+
+    .section .content h1{
+        font-size: 40px;
+    }
+    .section .content p{
+        font-size: 17px;
+    }
+    .section .content .btn{
+        font-size: 16px;
+    }
+}
+
+@media (min-width:1024px){
+
+    :root{
+        --main-padding: 5%;
+    }
+
+    body{
+        background: url("../images/bg-desktop.svg");
+        background-color: var(--bg-color);
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+    }
+
+    .page{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* HEADER */
+    .header{
+        width: 100%;
+        padding: 3%;
+    }
+
+    .header img{
+        width: 15%;
+        max-width: 440px;
+    }
+    /* SECTION */
+    .section{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-grow: 1;
+        padding: 30px 35px;
+    }
+
+    .section .picture{
+        width: 55%;
+    }
+
+    .section .content{
+        align-items: flex-start;
+        text-align: left;
+        width: 40%;
+    }
+
+    .section .content h1{
+        font-size: 2.6vw;
+        padding: 0 0 5%;
+    }
+
+    .section .content p{
+        font-size: 1.1vw;
+        padding: 2% 0;
+    }
+
+    .section .content .btn{
+        text-align: center;
+        font-size: 1.5vw;
+        margin: 2% 0;
+    }
+
+    /* FOOTER */
+    .footer{
+        width: 100%;
+    }
+    .social{
+        justify-content: flex-end;
+    }
+
+    .social-icon-box{
+        width: 2.5vw;
+        height: 2.5vw;
+    }
+    .social-icon{
+        font-size: 1.5vw;
+    }
+
+    .attribution {
+        font-size: 1vw;
+        text-align: center;
+        /* padding: 0.5rem; */
+    }
+
+}
