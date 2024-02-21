@@ -7,3 +7,5 @@ Project of a Huddle Landing Page made through Frontend Mentor.
 ## Technologies Used
 - HTML
 - CSS
+
+### <a href="https://yuriown.github.io/quest-huddle-landing-page/">Click here<a> to access the live project.
